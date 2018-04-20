@@ -2,7 +2,7 @@ def outer():
     test = 1
 
     def inner():
-        test = 2
+        #test = 2
         print('inner:', test)
     inner()
     print('outer:', test)
